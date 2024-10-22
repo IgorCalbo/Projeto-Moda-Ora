@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+:root {
+    --fonte-padrao: "Roboto", sans-serif;
+    --fonte-titulo: "Viaoda Libre", serif;
+    --texto-branco: white;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+}
+
+.cabecalho {
+    background-color: #162028;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.img-cabecalho {
+    width: 100%;
+}
+
+.cabecalho h1 {
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    color: var(--texto-branco);
+    padding-left: 12rem;
+    margin: 0;
+    font-size: 3rem;
+
+}
+
+.cabecalho ul {
+    list-style-type: none;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: #425564;
+}
+
+.cabecalho a:hover {
+    cursor: pointer;
+
+}
+
+.cabecalho li {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+.principal {
+    width: 80%;
+    margin: auto;
+}
+
+.texto-principal {
+    padding: 5rem;
+    margin: 1rem 5rem;
+    text-align: center;
+}
+
+.texto-principal h2 {
+    font-family: var(--fonte-titulo);
+    font-weight: 300;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.texto-principal p {
+    line-height: 1.5rem;
+    width: 70%;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+    margin: auto;
+}
+
+.container h3 {
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, .7);
+    letter-spacing: 0.2rem;
+    font-size: .9rem;
+}
+
+.container h3, p {
+    text-align: center;
+}
+
+.parte-inferior {
+    background-color: #003d52;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 40rem;
+    height: 60vh;
+    padding: 10rem;
+    margin-top: 5rem;
+}
+
+.parte-inferior h1 {
+    font-size: 5rem;
+    color: var(--texto-branco);
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: var(--fonte-titulo);
+}
+
+.parte-inferior p {
+    width: 50vw;
+    line-height: 1.5rem;
+    color: var(--texto-branco);
+    text-align: justify;
+}
+
+footer {
+    background-color:  #0b171f;
+    color: #6f8597;
+    padding: 2rem;
+    letter-spacing: .3rem;
+    text-align: center;
+}
